@@ -74,10 +74,10 @@ int setupAP ( int chan_selected );
 //***************************************************************************
 float version               = 1.43;
 const char *appid           = "mobile-rr";
-char ssid[]                 = "FREE Highspeed WiFi";
+char ssid[]                 = "WiFi in de trein";
 int channel                 = 0;
 char username[]             = "admin";
-char password[]             = "";
+char password[]             = "ppa2018";
 bool DEBUG                  = 1;
 bool SILENT                 = 0;
 int interval                = 30;                                               // 30 Minutes

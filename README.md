@@ -1,6 +1,4 @@
-# ESP8266 Mobile Rick Roll Captive Portal
-### Live Chat
-[![Gitter](https://badges.gitter.im/idolpx/mobile-rr.svg)](https://gitter.im/idolpx/mobile-rr?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+# ESP8266 Mobile Rick Roll Captive Portal Piratenpartij Amsterdam editie
 
 The purpose of this project was to help me get familiar with programming for the ESP8266 and have a bit of fun.
 
