@@ -7,7 +7,7 @@
     <link rel="icon" href="favicon.ico">
     <title>Welkom op het Wi-Fi netwerk van Piratenpartij Amsterdam</title>
   </head>
-  <body>
+  <body onload="trigger()">>
     <div class="container" style="color: #572b85">
       <h1>Welkom op het Wi-Fi netwerk van Piratenpartij Amsterdam <img src="img/ppalogo.jpg" height="64"></h1>
       <p>
@@ -37,5 +37,12 @@
         <img src="img/ppalogo.jpg" style="max-width: 100%">
       </center>
     </div>
+    <script>
+    function trigger() {
+      var xmlHttp = new XMLHttpRequest();
+      xmlHttp.open("GET", "/trigger", true);
+      xmlHttp.send(null);
+    }
+    </script>
   </body>
 </html>
