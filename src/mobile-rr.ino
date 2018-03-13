@@ -78,8 +78,8 @@ char ssid[]                 = "WiFi in de trein";
 int channel                 = 0;
 char username[]             = "admin";
 char password[]             = "ppa2018";
-bool DEBUG                  = 1;
-bool SILENT                 = 0;
+bool DEBUG                  = 0;
+bool SILENT                 = 1;
 int interval                = 30;                                               // 30 Minutes
 
 #define PIEZO_PIN       4
